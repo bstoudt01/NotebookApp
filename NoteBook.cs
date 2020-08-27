@@ -15,6 +15,7 @@ namespace NoteBookApp
 
         public void RemoveNote(int index)
         {
+            // This will "throw" an exception if there isn't an element in the "index" position
             _notes.RemoveAt(index);
         }
 
